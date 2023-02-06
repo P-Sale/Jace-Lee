@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jace Lee Photography</title>
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
     <!--CSS Reset-->
     <link href="https://meyerweb.com/eric/tools/css/reset/reset.css">
     <!--Bootstrap-->
@@ -13,31 +17,47 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <nav class="navbar navbar-toggler bg-light sticky-top">
-        <div class="container-fluid">
-          <span class="navbar-brand">Jace Lee Photography</span>
+        <div id="navbar" class="container-fluid sticky-top navbar-toggler">
+          <span id="navtext" class="navbar-brand">Jace Lee Photography</span>
         </div>
-    </nav>
 
     <div class="container text-center">
-        <div class="row gy-4 row-cols-3">
+        <div class="row gy-4 row-cols-2">
             <div class="col">
-                <img id="photo1" class="img-fluid img-thumbnail" src="http://drive.google.com/uc?export=view&id=1YfubJPp0-MBL7w6k2e-IjPchJGLyLnRq">
+                <img id="photo1" class="img-fluid img-thumbnail" src="http://drive.google.com/uc?export=view&id=1YfubJPp0-MBL7w6k2e-IjPchJGLyLnRq" alt="Picture 1">
+                <a id="download" href="https://drive.google.com/uc?export=download&id=1YfubJPp0-MBL7w6k2e-IjPchJGLyLnRq" download>
+                <span>&#10515;</span>
+                </a>
             </div>
             <div class="col">
                 <img id="photo2" class="img-fluid img-thumbnail" src="http://drive.google.com/uc?export=view&id=1KMPnFVGAl9SYEp9mdntN_fJoeZK1DTAS">
+                <a id="download" href="https://drive.google.com/uc?export=download&id=1KMPnFVGAl9SYEp9mdntN_fJoeZK1DTAS" download>
+                    <span>&#10515;</span>
+                    </a>
             </div>
             <div class="col">
                 <img id="photo3" class="img-fluid img-thumbnail" src="http://drive.google.com/uc?export=view&id=13R8h2HoKLWXELiULLC8vE03TZuFJfJN1">
+                <a id="download" href="https://drive.google.com/uc?export=download&id=13R8h2HoKLWXELiULLC8vE03TZuFJfJN1" download>
+                    <span>&#10515;</span>
+                    </a>
             </div>
             <div class="col">
                 <img id="photo4" class="img-fluid img-thumbnail" src="http://drive.google.com/uc?export=view&id=1izWASwElGkVGtmo2nxgJWGAYcmWm7DKc">
+                <a id="download" href="https://drive.google.com/uc?export=download&id=1izWASwElGkVGtmo2nxgJWGAYcmWm7DKc" download>
+                    <span>&#10515;</span>
+                    </a>
             </div>
             <div class="col">
                 <img id="photo5" class="img-fluid img-thumbnail" src="http://drive.google.com/uc?export=view&id=1AjSZop9Ki9eGbaudLVMFmtr3Bh2cBpnA">
+                <a id="download" href="https://drive.google.com/uc?export=download&id=1AjSZop9Ki9eGbaudLVMFmtr3Bh2cBpnA" download>
+                    <span>&#10515;</span>
+                    </a>
             </div>
             <div class="col">
                 <img id="photo6" class="img-fluid img-thumbnail" src="http://drive.google.com/uc?export=view&id=1B66OpIj4sD7VSZ_BS4ySGXteqJUvrQJ7">
+                <a id="download" href="https://drive.google.com/uc?export=download&id=1B66OpIj4sD7VSZ_BS4ySGXteqJUvrQJ7" download>
+                    <span>&#10515;</span>
+                    </a>
             </div>
         </div>
     </div>
@@ -46,10 +66,6 @@
 
         <!-- The Close Button -->
         <span class="close">&times;</span>
-
-        <a id="download" href="" download>
-        <span>&#10515;</span>
-        </a>
       
         <!-- Modal Content (The Image) -->
         <img class="modal-content" id="img01">

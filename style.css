@@ -1,7 +1,20 @@
 img{
     cursor: pointer;
 }
+#navbar{
+    background: linear-gradient(to left, #F2E3D0, #F2E3D0, #BF8E63  );
+}
 
+#navtext{
+    position: sticky;
+    top: 10px;
+    font-family: 'Caveat', cursive;
+    color:#F2F2F0;
+    font-size: 25px;
+}
+body{
+    background-color:  #F2E3D0;
+}
 /* Modal styling---------------------------*/
 .modal {
     display: none; /* Hidden by default */
@@ -49,11 +62,13 @@ img{
   }
   #download{
     z-index: 1;
-    position: absolute;
+    /* position: absolute;
     top: 55px;
-    right: 32px;
-    color: #f1f1f1;
-    font-size: 40px;
+    right: 32px; */
+    background-color:#BF8E63;
+    border-radius: 12px;
+    color: #F2E3D0;
+    font-size: 30px;
     font-weight: bold;
     transition: 0.3s;
   }

@@ -8,7 +8,7 @@ var modalImg = document.getElementById("img01");
 img.addEventListener("click", function(){
   modal.style.display = "block";
   modalImg.src = this.src;
-  download.href = this.src; 
+  download.setAttribute("href", "https://drive.google.com/uc?export=download&id=" + modalImg.alt.value)
 })
 
 var img = document.getElementById("photo2");
@@ -103,3 +103,10 @@ modal.addEventListener("click", function(){
     modal.style.display = "none";
     download.href= "";
 })
+
+// document
+//   .getElementById("download")
+//   .addEventListener(
+//     "click",
+//     (event) => (event.target.href = "https://drive.google.com/uc?export=download&id=" + modalImg.alt)
+//   );
