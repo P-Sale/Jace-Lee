@@ -8,7 +8,7 @@ var modalImg = document.getElementById("img01");
 img.addEventListener("click", function(){
   modal.style.display = "block";
   modalImg.src = this.src;
-  download.setAttribute("href", "https://drive.google.com/uc?export=download&id=" + modalImg.alt.value)
+
 })
 
 var img = document.getElementById("photo2");
@@ -31,21 +31,20 @@ img.addEventListener("click", function(){
     modal.style.display = "block";
     modalImg.src = this.src;
   })
-
+/*
 var img = document.getElementById("photo5");
 var modalImg = document.getElementById("img01");
 img.addEventListener("click", function(){
     modal.style.display = "block";
     modalImg.src = this.src;
   })
-
 var img = document.getElementById("photo6");
 var modalImg = document.getElementById("img01");
 img.addEventListener("click", function(){
     modal.style.display = "block";
     modalImg.src = this.src;
   })
-/*
+
 var img = document.getElementById("item7");
 var modalImg = document.getElementById("img01");
 img.onclick = function(){
@@ -96,12 +95,10 @@ var spanDownload = document.getElementById("download");
  //When the user clicks on <span> (x), close the modal
  span.addEventListener("click", function() {
      modal.style.display = "none";
-     download.href= "";
  })
 
 modal.addEventListener("click", function(){
     modal.style.display = "none";
-    download.href= "";
 })
 
 // document
